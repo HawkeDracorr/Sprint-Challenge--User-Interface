@@ -158,6 +158,14 @@ nav a {
 	/* outline: red solid 2px; */
 	text-decoration: none;
 	color: black;
+	/* background-color: red; */
+}
+
+a:hover {
+	background-color: #bb1333;
+	opacity: 0.75;
+	padding: 5px 10px 0 15px;
+	border-radius: 15px 2px 0 0;
 }
 .navbar {
 	display: flex;
