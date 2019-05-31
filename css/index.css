@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+		/* outline: red solid 2px; */
 }
 
 .top-content {
@@ -82,7 +83,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -144,3 +145,114 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*Code I've added explicitly*/
+.header-nav {
+	display: flex;
+	justify-content: space-between;
+	width: 65%;
+	margin-left: 10%;
+}
+
+nav a {
+	/* outline: red solid 2px; */
+	text-decoration: none;
+	color: black;
+	/* background-color: red; */
+}
+
+a:hover {
+	background-color: #bb1333;
+	opacity: 0.75;
+	padding: 5px 10px 0 15px;
+	border-radius: 15px 2px 0 0;
+}
+.navbar {
+	display: flex;
+	align-items: flex-end;
+	margin: 5% auto 5% auto;
+	/* outline: red solid 2px; */
+}
+.header-img {
+	margin-bottom: 20px;
+}
+.strat-section {
+	/* outline: red solid 2px; */
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	height: 900px;
+	flex-wrap: wrap;
+	border-top: black dashed 1px;
+	/* border-bottom: black dashed 1px; */
+}
+.strat-section div {
+	display: flex;
+	flex-direction: column;
+	width: 46%;
+	border-bottom: black dashed 1px;
+	padding-bottom: 2%;
+}
+.div-row-2 {
+	/* outline: red solid 2px; */
+	margin-top: 5%;
+}
+.strat-section img {
+	/* outline: red solid 2px; */
+	margin: 4% auto 3% auto;
+}
+.about-snippet {
+	/* outline: red solid 2px; */
+	display: flex;
+	flex-direction: column;
+	padding: 0 15px 0 15px;
+	margin-bottom: 3%;
+}
+.bottom-snippet {
+	/* outline: red solid 2px; */
+	display: flex;
+	flex-direction: column;
+	padding: 0 15px 0 15px;
+	margin: 6% auto 3% auto;
+}
+button {
+	width: 30%;
+	border: black solid 2px;
+	border-radius: 10px;
+	color: black;
+	margin-top: 10px;
+}
+/*Coloring those boxes*/
+#box1 {
+ background-color: teal;
+}
+#box2 {
+ background-color: gold;
+}
+#box3 {
+ background-color: cadetblue;
+}
+#box4 {
+ background-color: coral;
+}
+#box5 {
+ background-color: crimson;
+}
+#box6 {
+ background-color: forestgreen;
+}
+#box7 {
+ background-color: darkorchid;
+}
+#box8 {
+ background-color: hotpink;
+}
+#box9 {
+ background-color: indigo;
+}
+#box10 {
+ background-color: dodgerblue;
+}
+/*End of the colored boxes*/
